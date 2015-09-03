@@ -30,7 +30,7 @@
     </description>
     <name>byteman-bmunit</name>
     <parent>
-        <groupId>org.jboss.byteman</groupId>
+        <groupId>com.datastax.byteman</groupId>
         <artifactId>byteman-root</artifactId>
         <version>3.0.0</version>
         <relativePath>../../pom.xml</relativePath>
@@ -117,15 +117,15 @@
         <!-- the bmunit code depends on the submit, install and agent jars
         -->
         <dependency>
-          <groupId>org.jboss.byteman</groupId>
+          <groupId>com.datastax.byteman</groupId>
           <artifactId>byteman</artifactId>
         </dependency>
         <dependency>
-          <groupId>org.jboss.byteman</groupId>
+          <groupId>com.datastax.byteman</groupId>
           <artifactId>byteman-submit</artifactId>
         </dependency>
         <dependency>
-          <groupId>org.jboss.byteman</groupId>
+          <groupId>com.datastax.byteman</groupId>
           <artifactId>byteman-install</artifactId>
         </dependency>
     </dependencies>

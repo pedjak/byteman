@@ -26,7 +26,7 @@
     <artifactId>byteman-download</artifactId>
     <packaging>pom</packaging>
     <parent>
-        <groupId>org.jboss.byteman</groupId>
+        <groupId>com.datastax.byteman</groupId>
         <artifactId>byteman-root</artifactId>
         <version>3.0.0</version>
     </parent>
@@ -76,105 +76,105 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax..byteman</groupId>
             <artifactId>byteman</artifactId>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-submit</artifactId>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-install</artifactId>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-sample</artifactId>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-bmunit</artifactId>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-dtest</artifactId>
 	    <version>${project.version}</version>
         </dependency>
         <!-- javadoc jars -->
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman</artifactId>
             <classifier>javadoc</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-submit</artifactId>
             <classifier>javadoc</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-install</artifactId>
             <classifier>javadoc</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-sample</artifactId>
             <classifier>javadoc</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-bmunit</artifactId>
             <classifier>javadoc</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-dtest</artifactId>
             <classifier>javadoc</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <!-- source jars -->
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman</artifactId>
             <classifier>sources</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-submit</artifactId>
             <classifier>sources</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-install</artifactId>
             <classifier>sources</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-sample</artifactId>
             <classifier>sources</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-bmunit</artifactId>
             <classifier>sources</classifier>
 	    <version>${project.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.jboss.byteman</groupId>
+            <groupId>com.datastax.byteman</groupId>
             <artifactId>byteman-dtest</artifactId>
             <classifier>sources</classifier>
 	    <version>${project.version}</version>

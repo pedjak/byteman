@@ -31,7 +31,7 @@
     </description>
     <name>byteman-dtest</name>
     <parent>
-        <groupId>org.jboss.byteman</groupId>
+        <groupId>com.datastax.byteman</groupId>
         <artifactId>byteman-root</artifactId>
         <version>3.0.0</version>
         <relativePath>../../pom.xml</relativePath>
@@ -43,11 +43,11 @@
         <!-- the dtest code depends on the submit and agent jars
         -->
         <dependency>
-          <groupId>org.jboss.byteman</groupId>
+          <groupId>com.datastax.byteman</groupId>
           <artifactId>byteman</artifactId>
         </dependency>
         <dependency>
-          <groupId>org.jboss.byteman</groupId>
+          <groupId>com.datastax.byteman</groupId>
           <artifactId>byteman-submit</artifactId>
         </dependency>
         <!-- dtest reuses JUnit assertions -->

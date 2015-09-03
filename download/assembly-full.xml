@@ -9,9 +9,9 @@
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
             <includes>
-                <include>org.jboss.byteman:byteman:jar:*</include>
-                <include>org.jboss.byteman:byteman-submit:jar:*</include>
-                <include>org.jboss.byteman:byteman-install:jar:*</include>
+                <include>com.datastax.byteman:byteman:jar:*</include>
+                <include>com.datastax.byteman:byteman-submit:jar:*</include>
+                <include>com.datastax.byteman:byteman-install:jar:*</include>
             </includes>
             <excludes>
                 <exclude>*:javadoc</exclude>
@@ -22,7 +22,7 @@
         <dependencySet>
             <outputDirectory>sample/lib</outputDirectory>
             <includes>
-                <include>org.jboss.byteman:byteman-sample:jar:*</include>
+                <include>com.datastax.byteman:byteman-sample:jar:*</include>
             </includes>
             <excludes>
                 <exclude>*:javadoc</exclude>
@@ -33,7 +33,7 @@
         <dependencySet>
             <outputDirectory>contrib/dtest</outputDirectory>
             <includes>
-                <include>org.jboss.byteman:byteman-dtest:jar:*</include>
+                <include>com.datastax.byteman:byteman-dtest:jar:*</include>
             </includes>
             <excludes>
                 <exclude>*:javadoc</exclude>
@@ -44,7 +44,7 @@
         <dependencySet>
             <outputDirectory>contrib/bmunit</outputDirectory>
             <includes>
-                <include>org.jboss.byteman:byteman-bmunit:jar:*</include>
+                <include>com.datastax.byteman:byteman-bmunit:jar:*</include>
             </includes>
             <excludes>
                 <exclude>*:javadoc</exclude>
@@ -55,14 +55,14 @@
         <dependencySet>
             <outputDirectory>javadoc</outputDirectory>
             <includes>
-                <include>org.jboss.byteman:*:jar:javadoc</include>
+                <include>com.datastax.byteman:*:jar:javadoc</include>
             </includes>
             <outputFileNameMapping>${artifact.artifactId}/${artifact.artifactId}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
         </dependencySet>
         <dependencySet>
             <outputDirectory>sources</outputDirectory>
             <includes>
-                <include>org.jboss.byteman:*:jar:sources</include>
+                <include>com.datastax.byteman:*:jar:sources</include>
             </includes>
             <outputFileNameMapping>${artifact.artifactId}/${artifact.artifactId}${dashClassifier?}.${artifact.extension}</outputFileNameMapping>
         </dependencySet>

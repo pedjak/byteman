@@ -30,7 +30,7 @@
     </description>
 	<name>byteman-rulecheck maven plugin</name>
 	<parent>
-		<groupId>org.jboss.byteman</groupId>
+		<groupId>com.datastax.byteman</groupId>
 		<artifactId>byteman-root</artifactId>
 		<version>3.0.0</version>
 		<relativePath>../../pom.xml</relativePath>
@@ -42,7 +42,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.jboss.byteman</groupId>
+			<groupId>com.datastax.byteman</groupId>
 			<artifactId>byteman</artifactId>
             <!--
 			<version>2.1.3</version>

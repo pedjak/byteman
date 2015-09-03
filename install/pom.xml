@@ -31,7 +31,7 @@
     </description>
     <name>byteman-install</name>
     <parent>
-        <groupId>org.jboss.byteman</groupId>
+        <groupId>com.datastax.byteman</groupId>
         <artifactId>byteman-root</artifactId>
         <version>3.0.0</version>
     </parent>

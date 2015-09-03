@@ -26,7 +26,7 @@
     <artifactId>byteman-sample</artifactId>
     <packaging>jar</packaging>
     <parent>
-        <groupId>org.jboss.byteman</groupId>
+        <groupId>com.datastax.byteman</groupId>
         <artifactId>byteman-root</artifactId>
         <version>3.0.0</version>
     </parent>
@@ -43,7 +43,7 @@
         <!-- the sample code depends on the agent jar
         -->
         <dependency>
-          <groupId>org.jboss.byteman</groupId>
+          <groupId>com.datastax.byteman</groupId>
           <artifactId>byteman</artifactId>
         </dependency>
     </dependencies>
